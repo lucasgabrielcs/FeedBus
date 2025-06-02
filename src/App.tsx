@@ -16,8 +16,7 @@ import FeedbackListPage from './pages/FeedbackListPage';
 
 // Routes with authentication
 const ProtectedRoute = ({ children }: { children: React.ReactNode }) => {
-  // In a real app, you would check authentication status
-  // For this demo, we'll just render the children
+
   return <>{children}</>;
 };
 
@@ -40,7 +39,7 @@ function App() {
                 } />
                 <Route path="/feedbacks" element={<FeedbackListPage />} />
                 
-                {/* Redirect any other routes to home */}
+                
                 <Route path="*" element={<Navigate to="/\" replace />} />
               </Routes>
             </main>
