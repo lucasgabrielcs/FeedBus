@@ -21,9 +21,8 @@ A falta de um canal estruturado de comunicação entre usuários do transporte p
 
 ## 🛠️ Tecnologias Utilizadas
 
-- **Frontend:** HTML5, CSS, JavaScript 
-- **Backend:** Node.js / Django / PHP (especifique o que foi usado)
-- **Banco de Dados:** MySQL / PostgreSQL / SQLite (especifique)
+- **Frontend:** React
+- **Backend:** Node.js e Typescript / 
 - **Controle de Versão:** Git e GitHub
 
 ---
